@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface TCADPagePlayer : NSObject
++ (void)showAdPageFullScreen;
++ (void)hideAdPageFullScreen;
 
 @end

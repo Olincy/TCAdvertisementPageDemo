@@ -15,6 +15,8 @@
 		BE1D70221CCDC12000945310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1D70201CCDC12000945310 /* LaunchScreen.storyboard */; };
 		BE1D702D1CCDC12000945310 /* TCAdvertisementPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D702C1CCDC12000945310 /* TCAdvertisementPageDemoTests.m */; };
 		BE1D70381CCDC12000945310 /* TCAdvertisementPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D70371CCDC12000945310 /* TCAdvertisementPageDemoUITests.m */; };
+		BE1D70471CCDC21300945310 /* TCADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D70461CCDC21300945310 /* TCADViewController.m */; };
+		BE1D704A1CCDC8EE00945310 /* TCADPagePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D70491CCDC8EE00945310 /* TCADPagePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BE1D70331CCDC12000945310 /* TCAdvertisementPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAdvertisementPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1D70371CCDC12000945310 /* TCAdvertisementPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAdvertisementPageDemoUITests.m; sourceTree = "<group>"; };
 		BE1D70391CCDC12000945310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1D70451CCDC21300945310 /* TCADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCADViewController.h; sourceTree = "<group>"; };
+		BE1D70461CCDC21300945310 /* TCADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCADViewController.m; sourceTree = "<group>"; };
+		BE1D70481CCDC8EE00945310 /* TCADPagePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCADPagePlayer.h; sourceTree = "<group>"; };
+		BE1D70491CCDC8EE00945310 /* TCADPagePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCADPagePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				BE1D70201CCDC12000945310 /* LaunchScreen.storyboard */,
 				BE1D70231CCDC12000945310 /* Info.plist */,
 				BE1D70121CCDC12000945310 /* Supporting Files */,
+				BE1D70451CCDC21300945310 /* TCADViewController.h */,
+				BE1D70461CCDC21300945310 /* TCADViewController.m */,
+				BE1D70481CCDC8EE00945310 /* TCADPagePlayer.h */,
+				BE1D70491CCDC8EE00945310 /* TCADPagePlayer.m */,
 			);
 			path = TCAdvertisementPageDemo;
 			sourceTree = "<group>";
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1D701A1CCDC12000945310 /* ViewController.m in Sources */,
+				BE1D70471CCDC21300945310 /* TCADViewController.m in Sources */,
 				BE1D70171CCDC12000945310 /* AppDelegate.m in Sources */,
 				BE1D70141CCDC12000945310 /* main.m in Sources */,
+				BE1D704A1CCDC8EE00945310 /* TCADPagePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
